@@ -1,5 +1,14 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'dart:ui' as ui;
+
+import 'package:thumblr/thumblr.dart';
+
+Future<ui.Image> extractVideoFrameAt({
+  required String videoFilePath,
+  required double positionInSeconds,
+}) async {
+  final thumbnail = await generateThumbnail(
+    filePath: videoFilePath,
+    position: positionInSeconds,
+  );
+  return thumbnail.image;
 }
