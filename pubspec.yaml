@@ -1,7 +1,6 @@
 name: extract_video_frame
-description: "A new Flutter package project."
+description: "A Dart package for extracting a video frame at a specific timestamp with consistent behavior across platforms."
 version: 0.0.1
-homepage:
 
 environment:
   sdk: ^3.7.2
@@ -21,7 +20,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+# flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
