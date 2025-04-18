@@ -1,6 +1,7 @@
 name: extract_video_frame
 description: "A Dart package for extracting a video frame at a specific timestamp with consistent behavior across platforms."
 version: 0.0.1
+repository: "https://github.com/stephane-archer/extract_video_frame"
 
 environment:
   sdk: ^3.7.2
