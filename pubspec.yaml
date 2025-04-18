@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   thumblr: ^0.0.4
+  video_duration: ^0.0.1
 
 dev_dependencies:
   flutter_test:
